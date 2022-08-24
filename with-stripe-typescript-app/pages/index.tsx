@@ -1,6 +1,7 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import Products from '../components/Products'
 
 const IndexPage: NextPage = () => {
   return (
@@ -31,6 +32,10 @@ const IndexPage: NextPage = () => {
           </Link>
         </li>
       </ul>
+
+      <div>
+        <Products />
+      </div>
     </Layout>
   )
 }
