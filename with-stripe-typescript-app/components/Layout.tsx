@@ -37,9 +37,7 @@ const Layout = ({
             </a>
           </Link>
           <h1>
-            <span className="light">Stripe Sample</span>
-            <br />
-            Next.js, TypeScript, and Stripe 🔒💸
+            <span className="light">Lightwell NextJS Shopping App</span>
           </h1>
         </div>
       </header>

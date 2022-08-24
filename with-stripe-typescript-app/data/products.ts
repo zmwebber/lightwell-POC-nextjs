@@ -18,5 +18,45 @@ const product = [
     attribution: 'Photo by Jonathan Pielmayer on Unsplash',
     currency: 'USD',
   },
+  {
+    name: 'Peaches',
+    description: 'Yummy yellow fruit',
+    id: 'sku_GBJ2Ep8246qeeT',
+    price: 400,
+    image:
+      'https://images.unsplash.com/photo-1574226516831-e1dff420e562?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=225&q=80',
+    attribution: 'Photo by Priscilla Du Preez on Unsplash',
+    currency: 'USD',
+  },
+  {
+    name: 'Pears',
+    description: 'Yummy yellow fruit',
+    id: 'sku_GBJ2Ep8246qeeT',
+    price: 400,
+    image:
+      'https://images.unsplash.com/photo-1574226516831-e1dff420e562?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=225&q=80',
+    attribution: 'Photo by Priscilla Du Preez on Unsplash',
+    currency: 'USD',
+  },
+  {
+    name: 'Plums',
+    description: 'Yummy yellow fruit',
+    id: 'sku_GBJ2Ep8246qeeT',
+    price: 400,
+    image:
+      'https://images.unsplash.com/photo-1574226516831-e1dff420e562?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=225&q=80',
+    attribution: 'Photo by Priscilla Du Preez on Unsplash',
+    currency: 'USD',
+  },
+  {
+    name: 'Apricots',
+    description: 'Yummy yellow fruit',
+    id: 'sku_GBJ2Ep8246qeeT',
+    price: 400,
+    image:
+      'https://images.unsplash.com/photo-1574226516831-e1dff420e562?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=225&q=80',
+    attribution: 'Photo by Priscilla Du Preez on Unsplash',
+    currency: 'USD',
+  },
 ]
 export default product
