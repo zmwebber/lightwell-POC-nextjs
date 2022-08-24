@@ -1,13 +1,17 @@
 import { NextPage } from 'next'
-import Link from 'next/link'
 import Cart from '../components/Cart'
+import CartBanner from '../components/CartBanner'
 import Layout from '../components/Layout'
+import {ComponentTitle} from '../components/ComponentTitle'
 import Products from '../components/Products'
+
+const text = "Select Products to add to your cart";
 const IndexPage: NextPage = () => {
   return (
     <Layout title="Home">
-      <div><h1>Products</h1>      
-      <Cart><Products/></Cart></div>
+      <ComponentTitle titleText={text}/>
+      <Cart><Products/></Cart>
+      <CartBanner/>
     </Layout>
   )
 }

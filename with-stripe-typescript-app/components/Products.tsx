@@ -1,12 +1,11 @@
 import products from '../data/products'
 import { formatCurrencyString } from 'use-shopping-cart'
 import { useShoppingCart } from 'use-shopping-cart/react'
-
 const Products = () => {
   const { addItem, removeItem } = useShoppingCart()
 
   return (
-    <section className="products">
+    <section className="products">       
       {products.map((product) => (
         <div key={product.id} className="product">
           <img src={product.image} alt={product.name} />
