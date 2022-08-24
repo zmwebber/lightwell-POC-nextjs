@@ -33,7 +33,7 @@ const Layout = ({
         <div className="header-content">
           <Link href="/">
             <a className="logo">
-              <img src="/logo.png" />
+              <img src="/brand-logo.png" />
             </a>
           </Link>
           <h1>
@@ -42,28 +42,20 @@ const Layout = ({
         </div>
       </header>
       {children}
+      <div className="banner">
+    <ul>
+       <li>
+          <Link href="/use-shopping-cart">
+            <a className="cta">
+              <h2 className="bottom">View Cart</h2>
+              <img src="/use-shopping-cart.png" />
+            </a>
+          </Link>
+        </li>
+      </ul>
     </div>
-    <div className="banner">
-      <span>
-        This is a{' '}
-        <a
-          href="https://github.com/stripe-samples"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Stripe Sample
-        </a>
-        .{' View code on '}
-        <a
-          href="https://github.com/vercel/next.js/tree/canary/examples/with-stripe-typescript"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-        .
-      </span>
     </div>
+    
   </>
 )
 
