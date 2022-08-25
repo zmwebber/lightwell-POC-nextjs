@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 import Cart from '../components/Cart'
 import CartSummary from '../components/CartSummary'
-import Products from '../components/Products'
+import CartItems from '../components/CartItems'
 
 const DonatePage: NextPage = () => {
   return (
@@ -12,7 +12,7 @@ const DonatePage: NextPage = () => {
         <h1>Shopping Cart</h1>
         <Cart>
           <CartSummary />
-          <Products />
+          <CartItems />
         </Cart>
       </div>
     </Layout>

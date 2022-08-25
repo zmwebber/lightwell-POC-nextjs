@@ -10,7 +10,7 @@ const IndexPage: NextPage = () => {
   return (
     <Layout title="Home">
       <ComponentTitle titleText={text}/>
-      <Cart><Products/></Cart>
+      <Cart><Products removeVisible={true}/></Cart>
       <CartBanner/>
     </Layout>
   )

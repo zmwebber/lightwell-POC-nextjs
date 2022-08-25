@@ -1,7 +1,7 @@
 import products from '../data/products'
 import { formatCurrencyString } from 'use-shopping-cart'
 import { useShoppingCart } from 'use-shopping-cart/react'
-const Products = () => {
+const Products = ({ removeVisible }: { removeVisible: boolean }) => {
   const { addItem, removeItem } = useShoppingCart()
 
   return (
@@ -25,12 +25,16 @@ const Products = () => {
           >
             Add to cart
           </button>
-          <button
-            className="cart-style-background"
-            onClick={() => removeItem(product.id)}
-          >
-            Remove
-          </button>
+          {
+            !removeVisible ? (
+              <button
+                className="cart-style-background"
+                onClick={() => removeItem(product.id)}
+              >
+                Remove
+              </button>
+            ) : null
+          }
         </div>
       ))}
     </section>

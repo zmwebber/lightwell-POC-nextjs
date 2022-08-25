@@ -261,6 +261,36 @@ button:disabled {
 
   
 }
+.cart-item-inner{
+  display:flex;
+  justify-content: space-between;
+}
+.cart-item-img{
+  display:flex;
+  height:150px;
+  margin-top:3%;
+}
+.cart-item-right-child{
+  display:flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.cart-item-right-child > h2{
+  display:flex;
+  margin: 10px 20px 10px 11px;
+}
+.cart-item-desc
+{
+  display: grid;
+}
+.price
+{
+  padding-right: 10px;
+}
+.cart-item-buttons
+{
+  display:grid;
+}
 /* Test card number */
 .test-card-notice {
   display: block;
@@ -307,10 +337,8 @@ pre {
   box-sizing: border-box;
   padding: 30px;
   line-height: 1.15;
-  position: fixed;
-  
+  position: fixed;  
   left: 84vw;
-
   text-align: center;
   justify-content: center;
 }
