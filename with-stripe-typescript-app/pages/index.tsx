@@ -7,7 +7,7 @@ const IndexPage: NextPage = () => {
   return (
     <Layout title="Home">
       <div><h1>Products</h1>      
-      <Cart><Products/></Cart></div>
+      <Cart><Products removeVisible={true}/></Cart></div>
     </Layout>
   )
 }
